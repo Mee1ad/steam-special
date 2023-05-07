@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8a8c4e7-5115-4301-886d-f473b8b42be9" name="Changes" comment="" />
+    <list default="true" id="a8a8c4e7-5115-4301-886d-f473b8b42be9" name="Changes" comment="add app to settings">
+      <change afterPath="$PROJECT_DIR$/vercel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/steam/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/steam/settings.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +22,31 @@
       <list>
         <option value="Python Script" />
       </list>
+    </option>
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1683488568" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1683488567" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
     </option>
   </component>
   <component name="MarkdownSettingsMigration">
@@ -93,11 +122,23 @@
       <workItem from="1683442314368" duration="3833000" />
       <workItem from="1683448045816" duration="58000" />
       <workItem from="1683448122152" duration="6707000" />
-      <workItem from="1683475868993" duration="9636000" />
+      <workItem from="1683475868993" duration="10427000" />
     </task>
+    <task id="LOCAL-00001" summary="add app to settings">
+      <created>1683488760350</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683488760350</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add app to settings" />
+    <option name="LAST_COMMIT_MESSAGE" value="add app to settings" />
   </component>
 </project>
