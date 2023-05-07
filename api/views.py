@@ -101,3 +101,7 @@ def scrape_games(request):
         })
     # print(games)
     return JsonResponse({"games": games})
+
+
+def index(request):
+    return JsonResponse({"message": "Hello World"})
