@@ -3,7 +3,6 @@ from bs4 import BeautifulSoup
 from django.http import JsonResponse
 from lxml import html
 import contextlib
-import pysnooper
 
 profit = 300.00
 
@@ -21,7 +20,6 @@ def steam_games(request):
     lira_sign = "₺"
     if response.status_code == 200:
         for game in response.json()["specials"]["items"]:
-            print(game)
             games.append({
                 "id": game["id"],
                 "name": game["name"],
@@ -99,7 +97,6 @@ def scrape_games(request):
             "discount_percent": "".join(discount_percent.split()),
             "steam_url": result['href'],
         })
-    # print(games)
     return JsonResponse({"games": games})
 
 
