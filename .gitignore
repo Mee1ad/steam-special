@@ -1,2 +1,32 @@
-.idea
-.idea/workspace.xml
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+dist/
+eggs/
+libs/
+
+# Local development settings
+local_settings.py
+
+# Logs and databases
+*.log
+*.pot
+*.pyc
+*.sqlite3
+
+# Static assets
+staticfiles/
+assets/
+
+# IDE directories
+.idea/
+.vscode/
